@@ -1,0 +1,17 @@
+{
+  "name": "node-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^2.0.4"
+  }
+}
